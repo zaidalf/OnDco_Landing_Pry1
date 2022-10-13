@@ -1,3 +1,11 @@
-* {
-  margin: auto;
+
+.jumbotron {
+    background-color: #1e90f4; /* Orange */
+    color: #ffffff;
+    padding: 24rem ;
+    font-family: Montserrat, sans-serif;
+}
+.blog {
+    background-color: #41de53f3;
+    padding: 20rem 0;
 }
