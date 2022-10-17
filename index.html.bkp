@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mod1_Proyecto</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        
+        <a class="navbar-brand" href="#">
+          <img src="assets/LogoMakr-087XdZ-300dpi.png" alt="ondco" width="200" height="40">
+        </a>
+        
+      
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">¿Quienes somos?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="jumbotron">
+    <div class="jumbotron-box jumbotron-box-text">
+      <div class="jumbotron-box-title">
+        <h2>Servicios tecnológicos a la medida de sus necesidades</h2>
+      </div>
+      <div>
+        <p>Comprometidos con los objetivos de nuestros clientes, brindamos servicios de ciberseguridad, ingeniería y arquitectura en una amplia gama de entornos y plataformas como infraestructura On-premise, AWS Cloud, IBM Cloud,, entre otras tecnologias.</p>
+      </div>
+      <p></p>
+      <p></p>
+    </div>
+    <div class="jumbotron-box jumbotron-box-img">
+      <img src="assets/iStock-1355760884.jpg" alt="servicios">
+    </div>
+  </div>
+  <div class="carrusel">
+    <div id="carrusel-SlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/iStock-1326418539.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/iStock-1355760884.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/connection-network-in-dark-servers-data-center-room-storage-systems-picture-id1197646065.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="servicios">
+    <div class="card-ciberseg" style="width: 20rem; height: 30rem;">
+      <img src="assets/iStock-1185236506.jpg" class="card-img-top" alt="ciberseguridad">
+      <div class="card-body">
+        <h5 class="card-title">Servicios de ciberseguridad</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+    
+    <div class="card-ionp" style="width: 20rem; height: 30rem;">
+      <img src="assets/iStock-1207063401.jpg" class="card-img-top" alt="infra-onpremise">
+      <div class="card-body">
+        <h5 class="card-title">Infraestructura on-premise</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <div class="card-iass" style="width: 20rem; height: 30rem;">
+      <img src="assets/iStock-1257568481.jpg" class="card-img-top" alt="infra-could">
+      <div class="card-body">
+        <h5 class="card-title">IAAS AWS & IBM</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+  <div class="adicionales"></div>
+  <footer></footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
+
