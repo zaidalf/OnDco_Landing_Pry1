@@ -7,13 +7,15 @@
 body {
     width: 100%;
     height: auto;
-    background-color: #93a2b8;
     font-family:   'Roboto', sans-serif;
 }
-.jumbotron {
-    /* background-color: #36638a; */
+.text-bg-dark-aux {
+    /* color: darkblue; */
+    background-color: #e1e9e8;
+}
+.container-jumbotron {
+    background-color: #93a2b8;
     color: #ffffff;
-    /* padding: 2rem ; */
     font-family: Montserrat, sans-serif;
     display: flex;
     flex-flow: row wrap;
@@ -39,6 +41,14 @@ body {
     padding: 1rem;
     color: black;
 }
+.form-size {
+    width: 400px;
+    height: 58px;
+}
+.bottom-size {
+    width: 95px;
+    height: 58px;
+}
 .ServiceContainer {
     background-color: #e1e9e8; 
 }
@@ -51,32 +61,40 @@ body {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    gap: 5rem;
-    padding: 3rem;
+    gap: 2rem;
+    padding: 2rem;
 }
 .card-body {
     background-color: #ffffff;
     padding: 1rem;
     border-radius: 5px;
-} 
-.adicionales {
+}
+.card-img {
+    height: 192px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.container-extra {
     color: #ffffff;
-    /* padding: 2rem ; */
     font-family: Montserrat, sans-serif;
     display: flex;
     flex-flow: row wrap;
 }
-.adicionales-box {
+.extras-box {
     width: 50%;
 } 
-.adicionales-box-text {
-    padding: 4rem;
+.extras-box-text {
+    padding: 2rem;
 }
-.adicionales-box-text-parrafo {
-    padding: 3rem;
+.extras-box-text-parrafo {
+    padding: 1rem;
 }
-.adicionales-box-img img {
+.extras-box-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+.container-footer {
+    background-color: #e1e9e8;
+    
 }
