@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: SketchAPI 2022.3.11.0 https://api.sketch.io -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketchjs="https://sketch.io/dtd/" sketchjs:metadata="eyJuYW1lIjoiRHJhd2luZy0xLnNrZXRjaHBhZCIsInN1cmZhY2UiOnsibWV0aG9kIjoiZmlsbCIsImJsZW5kIjoibm9ybWFsIiwiZW5hYmxlZCI6dHJ1ZSwib3BhY2l0eSI6MSwidHlwZSI6ImNvbG9yIiwiY29sb3IiOiIjZmZmZmZmIn0sImNsaXBQYXRoIjp7ImVuYWJsZWQiOnRydWV9LCJkZXNjcmlwdGlvbiI6Im1hZGUgd2l0aCBodHRwOi8vbG9nb21ha3IuY29tIiwibWV0YWRhdGEiOnsiZ3JpZE92ZXJsYXlJZCI6ImdyaWRPdmVybGF5In0sImV4cG9ydERQSSI6NzIsImV4cG9ydEZvcm1hdCI6InBuZyIsImV4cG9ydFF1YWxpdHkiOjAuOTUsInVuaXRzIjoicHgiLCJ3aWR0aCI6NDU4LCJoZWlnaHQiOjQ1OCwicGFnZXMiOlt7IndpZHRoIjo0NTgsImhlaWdodCI6NDU4fV0sInV1aWQiOiIwNjA4ZGMwYS02MDYwLTRhYmUtODE3ZS0wZWNhYTJhMDNiNGYifQ==" width="458" height="458" viewBox="0 0 458 458">
+<defs>
+	<pattern id="dna_4146799760" patternUnits="userSpaceOnUse" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAOklEQVQ4T2O8fv36AQYGBhCmCmC8fv16g6amZgNVTGNgYBg1kPKQHA3D0TAkIwRGkw0ZgYamZQSGIQApY1AaL/I1PgAAAABJRU5ErkJggg==" x="0" y="0" width="20" height="20">
+	</pattern>
+</defs>
+<path style="fill: #555555; mix-blend-mode: source-over; fill-opacity: 1; vector-effect: non-scaling-stroke; visibility: hidden;" sketchjs:tool="rectangle" d="M0 0 L458 0 458 458 0 458 z"/>
+<path style="fill: url(#dna_4146799760); mix-blend-mode: source-over; fill-opacity: 1; vector-effect: non-scaling-stroke;" sketchjs:tool="rectangle" d="M0 0 L458 0 458 458 0 458 z"/>
+<path style="fill: #2080c0; mix-blend-mode: source-over; fill-opacity: 1; vector-effect: non-scaling-stroke;" sketchjs:tool="circle" d="M100 0 C155.23 0 200 44.77 200 100 200 155.23 155.23 200 100 200 44.77 200 0 155.23 0 100 0 44.77 44.77 0 100 0 z" transform="matrix(2.188578900373688,0,0,2.188578900373688,10,10)"/>
+<g style="mix-blend-mode: source-over;" sketchjs:tool="clipart" transform="matrix(3.3967391304347827,0,0,3.3967391304347827,127,59)">
+	<path d="M50.642 54.731l-19.77-1.998c0-9.485-.749-18.97-.749-28.456 0-2.857-2.383-5.241-5.241-5.241-2.859 0-3.895 2.383-3.895 5.241v39.94c-1.608-2.174-7.785-8.634-7.863-8.736C11.09 52.73 4.159 51.095.959 52.969c-2.717 1.593 2.259 5.438 4.302 8.201 7.416 10.026 13.29 19.999 20.706 30.025a15.997 15.997 0 0 0 3.412 4.544c.7.783 1.521 1.42 2.414 1.849A15.878 15.878 0 0 0 40.226 100c8.376 0 15.239-6.458 15.895-14.665.033-.241.057-.486.057-.736l2.702-23.577c0-2.979-5.259-6.291-8.238-6.291z" sketchjs:uid="1" style="fill: #faf0ee; fill-opacity: 1;"/>
+	<path d="M17.865 47.69v-5.649C10.599 39.41 5.391 32.442 5.391 24.277c0-10.413 8.473-18.886 18.886-18.886 10.413 0 18.887 8.473 18.887 18.886 0 6.921-3.744 12.979-9.311 16.269.078 1.978.157 3.956.23 5.933 8.515-3.776 14.471-12.303 14.471-22.201C48.555 10.891 37.665 0 24.277 0 10.891 0 0 10.891 0 24.277 0 35.445 7.582 44.87 17.865 47.69z" sketchjs:uid="2" style="fill: #faf0ee; fill-opacity: 1;"/>
+</g>
+</svg>
