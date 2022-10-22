@@ -10,6 +10,8 @@
 </head>
 <body>
   <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="linkedin" viewBox="0 0 16 16">
+      <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
     <symbol id="facebook" viewBox="0 0 16 16">
       <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
     </symbol>
@@ -20,6 +22,7 @@
       <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
     </symbol>
   </svg>
+
   <header class="p-3 text-bg-dark-aux">
     <div class="container ">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
@@ -42,86 +45,90 @@
       </div>
     </div>
   </header>
-  <div class="row mb-3 text-left">
-    <div class="col-6 themed-grid-col">
-      <div class="jumbotron-box jumbotron-box-text">
-        <div class="jumbotron-box-title">
-          <h1>Servicios tecnológicos a la medida de sus necesidades</h1>
-        </div>
-        <div class="jumbotron-box-text-parrafo">
-          <p>Comprometidos con los objetivos de nuestros clientes, brindamos servicios de ciberseguridad, ingeniería y arquitectura en una amplia gama de entornos y plataformas como son infraestructura On-premise, AWS Cloud, IBM Cloud, entre otras tecnologias.</p>
-          <p>¿Tienes un proyecto en carpeta?, Contactanos:</p>
-        </div>
-        <div class="jumbotron-contacto">
-          <div class="form-floating mb-3">
-            <input type="email" class="form-control form-size" id="floatingInput" placeholder="name@example.com">
-            <label for="floatingInput">Ingresa tu correo</label>
+  <div class="container-jumbotron">
+    <div class="row mb-3 text-left">
+      <div class="col-6 themed-grid-col">
+        <div class="jumbotron-box jumbotron-box-text">
+          <div class="jumbotron-box-title">
+            <h1>Servicios tecnológicos a la medida de sus necesidades</h1>
           </div>
-          <div class="jumbotron-box-button">
-            <button type="button" class="btn btn-primary btn-lg bottom-size">Enviar</button>
+          <div class="jumbotron-box-text-parrafo">
+            <p>Comprometidos con los objetivos de nuestros clientes, brindamos servicios de ciberseguridad, ingeniería y arquitectura en una amplia gama de entornos y plataformas como son infraestructura On-premise, AWS Cloud, IBM Cloud, entre otras tecnologias.</p>
+            <p>¿Tienes un proyecto en carpeta?, Contactanos:</p>
+          </div>
+          <div class="jumbotron-contacto">
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control form-size" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Ingresa tu correo</label>
+            </div>
+            <div class="jumbotron-box-button">
+              <button type="button" class="btn btn-primary btn-lg bottom-size">Enviar</button>
+            </div>
+          </div>
+          <div class="jumbotron-box-text-parrafo2">
+            <h3>Te ayudamos a <br>seguir adelante, <br>tenemos lo que buscas...</h3>
           </div>
         </div>
-        <p></p>
       </div>
-    </div>
-    <div class="col-6 themed-grid-col">
-      <div class="jumbotron-box jumbotron-box-img">
-        <img src="assets/iStock-1355760884.jpg" alt="servicios">
+      <div class="col-6 themed-grid-col">
+        <div class="jumbotron-box jumbotron-box-img">
+          <img src="assets/iStock-1355760884.jpg" alt="servicios">
+        </div>
       </div>
     </div>
   </div>
-
-
-  <div class="ServiceContainer">
+  <div class="container-servicios">
     <div class="ServiceContainer-title">
       <h1>Nuestros Servicios</h1>
     </div>
     <div class="ServiceContainer-card">
-      <div class="card-proyectos" style="width: 20rem; height: 30rem;">
+      <div class="card-proyectos" style="width: 30rem; height: 50rem;">
         <img src="assets/iStock-1058262630.jpg" class="card-img-top card-img" alt="proyectos">
         <div class="card-body">
           <h5 class="card-title">Gestión de proyectos TI</h5>
           <p></p>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <p class="card-text">Una adecuada gestión de proyectos tecnológicos le ayudará a alcanzar sus metas y objetivos estratégicos.</p>
+          <p class="card-text">Ofrecemos nuestra experiencia para que sus proyecto en tecnología lleguen a las metas esperadas.</p>
+          <p class="card-text">Planificar, gestionar y controlar déjenlo en nuestras manos.</p>
+          <p class="card-text-pry-espacio"></p>
+          <a href="#" class="btn btn-primary">Listo para comenzar?</a>
         </div>
     </div>
-      <div class="card-ciberseg" style="width: 20rem; height: 30rem;">
+      <div class="card-ciberseg" style="width: 30rem; height: 50rem;">
           <img src="assets/iStock-1185236506.jpg" class="card-img-top card-img" alt="ciberseguridad">
           <div class="card-body">
             <h5 class="card-title">Servicios de ciberseguridad</h5>
             <p></p>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <p class="card-text">Entregamos un servicios orientados al asesoramiento en términos de seguridad de su negocio, tanto en el ámbitos regulatorios, PCI-DSS, SOX, ISO 27001, así como lineamientos internos. </p>
+            <p> Nos enfocamos en la entrega de soluciones que resulten en un balance optimo entre costo/beneficio para las capacidades de su negocio.</p>
+            <p class="card-text-cbs-espacio"></p>
+            <a href="#" class="btn btn-primary">Quieres saber más?</a>
           </div>
       </div>
-
-      <div class="card-ionp" style="width: 20rem; height: 30rem;">
-          <img src="assets/iStock-1128472459.jpg" class="card-img-top card-img" alt="infra-onpremise">
+      <div class="card-arq" style="width: 30rem; height: 50rem;">
+          <img src="assets/iStock-1128472459.jpg" class="card-img-top card-img" alt="arquitectura">
           <div class="card-body">
             <h5 class="card-title">Arquitectura on-premise & cloud</h5>
             <p></p>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text">Con nuestra propuesta de valor le permitirá diseñar su arquitectura IT orientándola de mejor manera al aprovechamiento de las tecnologías instaladas, generando soluciones adecuadas para optimizar sus proceso y su organización.</p>
+            <p class="card-text-arq-espacio"></p>
             <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
       </div>
-
-      <div class="card-iass" style="width: 20rem; height: 30rem;">
-          <img src="assets/iStock-1257568481.jpg" class="card-img-top card-img" alt="infra-could">
+      <div class="card-iass" style="width: 30rem; height: 50rem;">
+          <img src="assets/iStock-1257568481.jpg" class="card-img-top card-img" alt="infraCloud">
           <div class="card-body">
             <h5 class="card-title">IaaS AWS & IBM cloud</h5>
             <p></p>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <p class="card-text">Ponemos a su disposición todas nuestras capacidades y conocimiento en la cloud, para que innove y mejore la disponibilidad de sus negocios.</p>
+            <p class="card-text">La tecnología cloud permite innovar sin necesidad de invertir en infraestructura, permitiendo abordad esos proyecto que están en carpeta.</p>
+            <p class="card-text-icl-espacio"></p>
+            <a href="#" class="btn btn-primary">Listo para innovar?</a>
           </div>
       </div>
-    
     </div>
   </div>
-
   <div class="container-extras">
-    
-    
     <div class="row mb-3 text-left">
       <div class="col-6 themed-grid-col">
         
@@ -145,8 +152,6 @@
       </div>
     </div>
   </div>
-
-
   <div class="container-footer">
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
       <div class="col-md-4 d-flex align-items-center">
@@ -156,13 +161,13 @@
         <span class="mb-3 mb-md-0 text-muted">&copy; 2022 Todos los derechos reservados.</span>
       </div>
       <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#linkedin"/></svg></a></li>
         <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
         <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
         <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
       </ul>
     </footer>
   </div>
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>
